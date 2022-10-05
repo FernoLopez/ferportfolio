@@ -1,0 +1,124 @@
+.contact_container{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding-top: 10%;
+    background-image: url('../../assets/UPC-updates-banner-colour-1024x320.jpg');
+    background-repeat: no-repeat;
+    background-position:left;
+}
+
+.contact-title{
+    color: darkslategray;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20%;
+  }
+  
+  .parent button {
+    background-color: #48abe0;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 31px;
+    height: 130px;
+    width: 130px;
+    box-shadow: 0 2px 4px darkslategray;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .parent button:active {
+    background-color: #48abe0;
+    box-shadow: 0 0 2px darkslategray;
+    transform: translateY(2px);
+  }
+  
+  .parent button:not(:first-child) {
+    margin-top: 10px;
+  }
+  
+  .round-1 {
+    border-radius: 70%;
+  }
+
+  .content_style {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .popup-content {
+    margin: auto;
+    background: gainsboro;
+    width: 50%;
+    padding: 5px;
+  }
+  .popup-arrow {
+    color: gainsboro;
+  }
+
+  [role='tooltip'].popup-content {
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+  }
+  
+  .popup-overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  [data-popup='tooltip'].popup-overlay {
+    background: transparent;
+  }
+
+  .modal {
+    font-size: 12px;
+  }
+  .modal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+  }
+  .modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }
+
+  @media screen and (min-width: 720px) {
+
+    .parent{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(2, 1fr); 
+        align-items: center;
+        }
+        .parent button {
+            width: 200px;
+            height: 200px;
+            font-size: 40px;
+        }
+  }

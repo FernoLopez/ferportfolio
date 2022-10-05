@@ -1,0 +1,41 @@
+:root {
+  --padding-mobile: 20px;
+  --padding-tablet: 50px;
+  --padding-desktop: 100px;
+  --primary-color: white;
+  --secondary-color: #F85555;
+  --border-color: #9996;
+  --color-primary-text: black;
+  --color-secondary-text: #9996;
+  --color-footer: #3C3C3B;
+  --font-family: 'Roboto';
+}
+
+*{
+  box-sizing: border-box;
+  /* background-color: black;  */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  font-family: var(--font-family);
+}
+
+h1, h2, h3, h4, p, ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}

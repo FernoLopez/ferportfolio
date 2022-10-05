@@ -1,0 +1,12 @@
+.my_cv {
+    padding: var(--padding-mobile);
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    width: 100%;
+}
+
+.cv_title {
+    color: #EF9919;
+}
