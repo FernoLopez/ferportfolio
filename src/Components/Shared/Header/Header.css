@@ -82,10 +82,10 @@
   
   @media screen and (min-width: 720px) {
     .header {
-      padding: 0 0 0 var(--padding-tablet);
+      padding: var(--padding-tablet);
       height: 100px;
       position: fixed;
-      top: -3%;
+      top: 1%;
       width: 95%;
     }
     .header_menuham {

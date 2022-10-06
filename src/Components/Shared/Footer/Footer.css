@@ -1,6 +1,7 @@
 .footer {
     padding: var(--padding-mobile);
     background-image: url(../../../assets/istockphoto-1086525092-170667a.jpg);
+    /* background-repeat: no-repeat; */
     background-position:bottom;
     /* background-color: var(--color-footer); */
     color: var(--primary-color);
@@ -76,9 +77,20 @@
   @media screen and (min-width: 720px) {
     .footer {
       padding: var(--padding-tablet);
-      margin-top: 85%;
+      margin-top: 140%;
+      
+      width: 180%;
     }
     .footer__text{
       margin-bottom: 30px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .footer{
+      width: min(1300px, 100%);
+      padding-left: var(--padding-desktop);
+      padding-right: var(--padding-desktop);
+      margin-top: 70%;
     }
   }

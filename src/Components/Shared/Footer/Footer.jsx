@@ -4,6 +4,7 @@ import './Footer.css'
 const Footer = () => {
 
   return (
+    <div className='footer_container'>
     <footer className="footer">
     <p className='footer__text'>Links</p>
     <ul className="redes">
@@ -19,7 +20,7 @@ const Footer = () => {
       </li>
     </ul>
   </footer>
-
+  </div>
   )
 }
 
