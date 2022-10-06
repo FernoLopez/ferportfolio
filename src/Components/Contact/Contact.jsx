@@ -26,7 +26,7 @@ const Contact = () => {
   </Popup>
     </div>
     </div>
-    <a href="./home"><span></span></a>
+    <a href=""><span></span></a>
 </article>
 </section>
   )
