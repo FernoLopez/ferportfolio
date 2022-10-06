@@ -497,11 +497,15 @@ hr {
   #portfolios {
     background-repeat: no-repeat;
     background-size: 120%;
-    height: 12%;
+    height: 15%;
   }
 
   #contact {
     height: 18%;
+  }
+
+  #contact a {
+    padding-top: 23%;
   }
 
    @media screen and (min-width: 1024px) {
